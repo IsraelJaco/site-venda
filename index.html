@@ -20,35 +20,28 @@
       <li><a href="#produtos">Produtos</a></li>
       <li><a href="#sobre">Sobre</a></li>
       <li><a href="#contato">Contato</a></li>
-      <li><a href="javascript:void(0)" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a></li>
+      <li><a href="javascript:void(0);" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a></li>
     </ul>
   </nav>
 
-  <!-- Carrinho de Compras -->
-  <div id="cart" class="cart-container">
-    <h3>Itens no Carrinho</h3>
-    <ul id="cart-items"></ul>
-    <strong>Total: <span id="cart-total">0 Kz</span></strong>
-    <button id="send-whatsapp">Enviar via WhatsApp</button>
-    <button id="close-cart">Fechar</button>
-  </div>
-
   <!-- Produtos -->
   <main class="produtos" id="produtos">
-    <div class="produto">
-      <img src="imagens/relogio.jpg" alt="Relógio Digital">
-      <h3>Relógio Digital</h3>
-      <p>Design elegante com funções modernas.</p>
-      <strong>9.500 Kz</strong>
-      <button class="add-to-cart" data-name="Relógio Digital" data-price="9500">Adicionar ao Carrinho</button>
-    </div>
-
     <div class="produto">
       <img src="imagens/tenis.jpg" alt="Tênis Moderno">
       <h3>Tênis Moderno</h3>
       <p>Estilo e conforto para o seu dia a dia.</p>
       <strong>14.000 Kz</strong>
+      <a href="https://wa.me/244923456789?text=Tenho%20interesse%20no%20Tênis%20Moderno" target="_blank">Comprar via WhatsApp</a>
       <button class="add-to-cart" data-name="Tênis Moderno" data-price="14000">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="produto">
+      <img src="imagens/relogio.jpg" alt="Relógio Digital">
+      <h3>Relógio Digital</h3>
+      <p>Design elegante com funções modernas.</p>
+      <strong>9.500 Kz</strong>
+      <a href="https://wa.me/244923456789?text=Tenho%20interesse%20no%20Relógio%20Digital" target="_blank">Comprar via WhatsApp</a>
+      <button class="add-to-cart" data-name="Relógio Digital" data-price="9500">Adicionar ao Carrinho</button>
     </div>
 
     <div class="produto">
@@ -56,9 +49,31 @@
       <h3>Camisa Casual</h3>
       <p>Perfeita para eventos ou uso diário.</p>
       <strong>6.000 Kz</strong>
+      <a href="https://wa.me/244923456789?text=Tenho%20interesse%20na%20Camisa%20Casual" target="_blank">Comprar via WhatsApp</a>
       <button class="add-to-cart" data-name="Camisa Casual" data-price="6000">Adicionar ao Carrinho</button>
     </div>
   </main>
+
+  <!-- Seção Sobre -->
+  <section id="sobre">
+    <h2>Sobre a Minha Loja</h2>
+    <p>Somos uma loja dedicada a oferecer os melhores produtos para você, com uma experiência de compra simples e rápida.</p>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Para mais informações, entre em contato conosco pelo WhatsApp!</p>
+  </section>
+
+  <!-- Carrinho de Compras -->
+  <div class="cart-container" id="cart">
+    <h3>Carrinho</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: <span id="cart-total">0 Kz</span></p>
+    <button id="send-whatsapp">Enviar para o WhatsApp</button>
+    <button id="close-cart">Fechar Carrinho</button>
+  </div>
 
   <!-- Rodapé -->
   <footer>
