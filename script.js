@@ -70,6 +70,6 @@ sendWhatsappButton.addEventListener('click', () => {
   });
   message += `\nTotal: ${cartTotal.textContent}\n\nGostaria de realizar a compra.`;
 
-  const whatsappUrl = `https://wa.me/244923456789?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/244937435613?text=${encodeURIComponent(message)}`;
   window.open(whatsappUrl, '_blank');
 });
