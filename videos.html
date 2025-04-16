@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Minha Loja </h1>
+    <p>Bem_vindo(a)</p>
+    <p>Os melhores produtos para você!</p>
+  </header>
+
+  <!-- Menu de Navegação -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="javascript:void(0);" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
+
+  <!-- Produtos -->
+  <main class="produtos" id="produtos">
+   
+    <div class="produto">
+      <video src="video/vid1.mp4" controls></video>
+      <h3>Video</h3>
+      <p>Boa qualidade, fácil e práticos.</p>
+      <strong>1.000,00 Kz</strong>
+      <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+      <button class="add-to-cart" data-name="Kit de desenho de criaças" data-price="1000">Adicionar ao Carrinho</button>
+    </div>
+    
+      <div class="produto">
+        <video src="video/VID-20250409-WA0000.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <video src="video/VID-20250409-WA0020.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <video src="video/VID-20250410-WA0000.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <video src="video/VID-20250413-WA0008.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <video src="video/VID-20250413-WA0018.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <video src="video/VID-20250416-WA0018.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+      <div class="produto">
+        <video src="video/VID-20250416-WA0019.mp4" controls></video>
+        <h3>Video</h3>
+        <p>Boa qualidade, fácil e práticos.</p>
+        <strong>35.000,00 Kz</strong>
+        <a href="https://wa.me/244937435613?text=Tenho%20interesse%20no%20produto%20Tapetes" target="_blank">Comprar via WhatsApp</a>
+        <button class="add-to-cart" data-name="Tapetes" data-price="35000">Adicionar ao Carrinho</button>
+      </div>
+    
+    
+    
+    
+
+  </main>
+
+  <!-- Seção Sobre -->
+  <section id="sobre">
+    <h2>Sobre a Minha Loja</h2>
+    <p>Somos uma loja dedicada a oferecer os melhores produtos para você, com uma experiência de compra simples e rápida.</p>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Para mais informações, entre em contato conosco pelo WhatsApp!</p>
+  </section>
+
+  <!-- Carrinho de Compras -->
+  <div class="cart-container" id="cart">
+    <h3>Carrinho</h3>
+    <ul id="cart-items"></ul>
+    <p>Total: <span id="cart-total">0 Kz</span></p>
+    <button id="send-whatsapp">Enviar para o WhatsApp</button>
+    <button id="close-cart">Fechar Carrinho</button>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Minha Loja. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
